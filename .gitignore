@@ -1,8 +1,26 @@
+# Environment variables
+.env
+.env.*
+
+# Python virtual environments
 venv/
+dashboard_venv/
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 
-.ipynb_checkpoints/
+# CrewAI
+.crewai/
 
-data/raw/*
-data/processed/*
+# Logs
+logs/
+*.log
+
+# IDE and OS files
+.DS_Store
+.vscode/
+
+# Generated stock data
+data/raw/
+data/processed/
